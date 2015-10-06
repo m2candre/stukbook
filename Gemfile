@@ -32,10 +32,13 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 # rails generate bootstrap:install static
 
 gem 'simple_form'
+# rails generate simple_form:install --bootstrap
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
